@@ -8,8 +8,19 @@ class TvBookingDetailView extends StatefulWidget {
     controller.view = this;
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Tv Booking Detail"),
-        actions: const [],
+        title: const Text("Ticket"),
+        centerTitle: true,
+        actions: const [
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Center(
+              child: Icon(
+                Icons.upload_outlined,
+                size: 24.0,
+              ),
+            ),
+          ),
+        ],
       ),
       body: const SingleChildScrollView(
         padding: EdgeInsets.all(20.0),

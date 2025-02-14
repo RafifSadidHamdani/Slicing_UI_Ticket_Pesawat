@@ -1,58 +1,62 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 ThemeData getTravelTheme() {
-  return ThemeData().copyWith(
-    primaryColor: Colors.blue,
-    scaffoldBackgroundColor: const Color(0xfff9f9f9),
-    cardTheme: CardTheme(
-      elevation: 0,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(16.0),
-      ),
-    ),
-    iconTheme: IconThemeData(
-      color: Colors.grey[800],
-    ),
+  return ThemeData.dark().copyWith(
+    scaffoldBackgroundColor: Color(0xff393e48),
     appBarTheme: AppBarTheme(
-      elevation: 0.0,
-      backgroundColor: Colors.blueAccent,
-      titleTextStyle: TextStyle(
-        color: Colors.blueGrey[700],
+      backgroundColor: Color(0xff393e48),
+      elevation: 0,
+      titleTextStyle: GoogleFonts.lato(
+        color: Colors.white,
+        fontWeight: FontWeight.bold,
       ),
-      actionsIconTheme: IconThemeData(
-        color: Colors.blueGrey[700],
+      iconTheme: const IconThemeData(
+        color: Colors.white,
       ),
-      iconTheme: IconThemeData(
-        color: Colors.blueGrey[700],
-      ),
+    ),
+    bottomNavigationBarTheme: const BottomNavigationBarThemeData(
+      unselectedItemColor: Colors.grey,
+      selectedItemColor: Colors.white,
+    ),
+    tabBarTheme: const TabBarTheme(
+      unselectedLabelColor: Colors.grey,
+      labelColor: Colors.white,
     ),
     textTheme: TextTheme(
-      displayLarge: TextStyle(
-        color: Colors.grey[800],
+      titleSmall: GoogleFonts.lato(
+        color: Colors.white,
       ),
-      displayMedium: TextStyle(
-        color: Colors.grey[800],
+      titleMedium: GoogleFonts.lato(
+        color: Colors.white,
       ),
-      bodyLarge: TextStyle(
-        color: Colors.grey[800],
+      titleLarge: GoogleFonts.lato(
+        color: Colors.white,
       ),
-      bodyMedium: TextStyle(
-        color: Colors.grey[800],
+      bodyLarge: GoogleFonts.lato(
+        color: Colors.white,
+      ),
+      bodySmall: GoogleFonts.lato(
+        color: Colors.white,
+      ),
+      bodyMedium: GoogleFonts.lato(
+        color: Colors.white,
       ),
     ),
-    bottomNavigationBarTheme: BottomNavigationBarThemeData(
-      selectedIconTheme: IconThemeData(
-        color: Colors.grey[700],
+    inputDecorationTheme: InputDecorationTheme(
+      border: UnderlineInputBorder(
+        borderRadius: BorderRadius.circular(8),
+        borderSide: BorderSide.none,
       ),
-      unselectedIconTheme: IconThemeData(
-        color: Colors.grey[500],
+      enabledBorder: UnderlineInputBorder(
+        borderRadius: BorderRadius.circular(8),
+        borderSide: BorderSide(color: Colors.grey[300]!),
       ),
-      selectedLabelStyle: TextStyle(
-        color: Colors.grey[700],
+      focusedBorder: UnderlineInputBorder(
+        borderRadius: BorderRadius.circular(8),
+        borderSide: const BorderSide(color: Colors.blue),
       ),
-      unselectedLabelStyle: TextStyle(
-        color: Colors.grey[500],
-      ),
+      contentPadding: const EdgeInsets.symmetric(vertical: 16, horizontal: 16),
     ),
   );
 }

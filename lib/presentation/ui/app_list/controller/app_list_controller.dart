@@ -41,7 +41,7 @@ class AppListController extends State<AppListView> {
     {
       "label": "Travel",
       "icon": Icons.flight,
-      "page": const TvDashboardView(),
+      "page": const TvMainNavigationView(),
       "theme": getTravelTheme(),
     },
   ];

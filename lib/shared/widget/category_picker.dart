@@ -10,6 +10,7 @@ class QCategoryPicker extends StatefulWidget {
     this.value,
     this.validator,
     this.label,
+    this.Clipbehavior,
     this.hint,
     this.helper,
   });
@@ -19,6 +20,8 @@ class QCategoryPicker extends StatefulWidget {
   final String? Function(int? value)? validator;
   final String? hint;
   final String? helper;
+
+  final Clip? Clipbehavior;
 
   final Function(
     Map<String, dynamic> item,
@@ -114,7 +117,7 @@ class _QCategoryPickerState extends State<QCategoryPicker> {
                   SingleChildScrollView(
                     controller: ScrollController(),
                     scrollDirection: Axis.horizontal,
-                    clipBehavior: Clip.none,
+                    clipBehavior: widget.Clipbehavior ?? Clip.none,
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: List.generate(items.length, (index) {

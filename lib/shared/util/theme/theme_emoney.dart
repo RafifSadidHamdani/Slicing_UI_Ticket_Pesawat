@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 ThemeData getEMoneyTheme() {
   return ThemeData().copyWith(
-    primaryColor: Colors.purple,
+    primaryColor: const Color(0xff000000),
     scaffoldBackgroundColor: const Color(0xfff9f9f9),
     cardTheme: CardTheme(
       elevation: 0,
@@ -15,7 +15,7 @@ ThemeData getEMoneyTheme() {
     ),
     appBarTheme: AppBarTheme(
       elevation: 0.0,
-      backgroundColor: Colors.purple,
+      backgroundColor: const Color(0xfff9f9f9),
       titleTextStyle: TextStyle(
         color: Colors.blueGrey[700],
       ),
@@ -41,14 +41,14 @@ ThemeData getEMoneyTheme() {
       ),
     ),
     bottomNavigationBarTheme: BottomNavigationBarThemeData(
-      selectedIconTheme: IconThemeData(
-        color: Colors.grey[700],
+      selectedIconTheme: const IconThemeData(
+        color: Color(0xff000000),
       ),
       unselectedIconTheme: IconThemeData(
         color: Colors.grey[500],
       ),
-      selectedLabelStyle: TextStyle(
-        color: Colors.grey[700],
+      selectedLabelStyle: const TextStyle(
+        color: Color(0xff000000),
       ),
       unselectedLabelStyle: TextStyle(
         color: Colors.grey[500],

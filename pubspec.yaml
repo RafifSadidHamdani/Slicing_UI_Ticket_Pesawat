@@ -29,10 +29,12 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   auto_route: ^9.3.0+1
+  carousel_slider: ^5.0.0
   cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
   flutter_map: ^8.0.0
+  flutter_rating_bar: ^4.0.1
   get_it: ^8.0.3
   google_fonts: ^6.2.1
   latlong2: ^0.9.1

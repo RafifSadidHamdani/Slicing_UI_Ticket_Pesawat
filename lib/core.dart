@@ -7,8 +7,7 @@ fileCount: 31
 export 'package:food_delivery/core_package.dart';
 export 'package:food_delivery/presentation/ui/app_list/controller/app_list_controller.dart';
 export 'package:food_delivery/presentation/ui/app_list/view/app_list_view.dart';
-export 'package:food_delivery/presentation/ui/emoney/em_dashboard/controller/em_dashboard_controller.dart';
-export 'package:food_delivery/presentation/ui/emoney/em_dashboard/view/em_dashboard_view.dart';
+
 export 'package:food_delivery/presentation/ui/food_delivery/fd_dashboard/controller/fd_dashboard_controller.dart';
 export 'package:food_delivery/presentation/ui/food_delivery/fd_dashboard/view/fd_dashboard_view.dart';
 export 'package:food_delivery/presentation/ui/food_delivery/fd_main_navigation/controller/fd_main_navigation_controller.dart';
@@ -37,4 +36,6 @@ export 'package:food_delivery/shared/widget/category_picker.dart';
 export 'package:food_delivery/shared/widget/dropdown.dart';
 export 'package:food_delivery/shared/widget/datepicker.dart';
 export 'package:food_delivery/shared/widget/counter_picker.dart';
+export 'package:food_delivery/shared/widget/color_picker.dart';
+export 'package:food_delivery/shared/widget/circle_category_picker.dart';
 export 'package:food_delivery/state_util.dart';

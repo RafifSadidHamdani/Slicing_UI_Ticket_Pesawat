@@ -157,7 +157,7 @@ class FdDashboardView extends StatefulWidget {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text(
-                                "FGet Special Discount",
+                                "Get Special Discount",
                                 style: GoogleFonts.oswald(
                                   fontSize: 16.0,
                                   color: Colors.white,

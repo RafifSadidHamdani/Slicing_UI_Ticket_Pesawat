@@ -1,16 +1,13 @@
-# food_delivery
+# Slicing UI Ecommence
 
-A new Flutter project.
+Latihan Slicing UI Food Delivery
 
-## Getting Started
+## Sreenshot
+<img src="https://raw.githubusercontent.com/RafifSadidHamdani/Slicing_UI_Food_Delivery/main/Screenshot/Food1.png" alt="" width="300">
+<img src="https://raw.githubusercontent.com/RafifSadidHamdani/Slicing_UI_Food_Delivery/main/Screenshot/Food2.png" alt="" width="300">
+<img src="https://raw.githubusercontent.com/RafifSadidHamdani/Slicing_UI_Food_Delivery/main/Screenshot/Food3.png" alt="" width="300">
 
-This project is a starting point for a Flutter application.
+## Referensi 
+[Antar - Food Delivery App](https://dribbble.com/shots/18416024-Antar-Food-Delivery-App)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
